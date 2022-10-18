@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut ico" href="favicon.ico">
+  <title>My first app</title>
+</head>
+<body>
+  
+  <div id="app" class="container">
+
+    <div class="market">
+
+      <div class="market__header">
+        <div class="header__ico">R</div>
+        <div class="header__menu menu">
+          <a class="menu__link">Головна</a>
+          <a class="menu__link">Про нас</a>
+          <a class="menu__link">Контакти</a>
+        </div>
+      </div>
+
+      <div class="market__shop">
+
+        <a href="#modal" class="content__item item modal__link" data-id="${id}">
+          <div class="item__img">${image}</div>
+          <div class="item__box">
+            <div class="item__title">${title}</div>
+            <div class="item__price">${price}</div>
+          </div>
+        </a>
+
+        <div class="content__item item modal__link">
+          <div class="item__img"></div>
+          <div class="item__box">
+            <div class="item__title">min wata</div>
+            <div class="item__price">100uah/sq.m</div>
+          </div>
+        </div>
+
+        <div class="content__item item modal__link">
+          <div class="item__img"></div>
+          <div class="item__box">
+            <div class="item__title">min wata</div>
+            <div class="item__price">100uah/sq.m</div>
+          </div>
+        </div>
+
+        <div class="content__item item modal__link">
+          <div class="item__img"></div>
+          <div class="item__box">
+            <div class="item__title">min wata</div>
+            <div class="item__price">100uah/sq.m</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="market__footer">
+        <div class="footer__allrights">
+          2022. Всі права захищені
+        </div>
+      </div>
+
+      <div id="modal" class="modal">
+        <div class="modal__body">
+          <div class="item__modal">
+            <a href="#" class="btns__close">x</a>
+            <div class="item__img"></div>
+            <div class="item__box">
+              <div class="item__title">min wata</div>
+              <div class="item__price">100 uah/sq.m</div>
+            </div>
+            <div class="item__description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, itaque!
+            </div>
+            <div class="item__btns">
+              <button class="btns__open">
+                <a src="goods_page.html">Відкрити</a>
+              </button>
+              <button class="btns__order">Замовити</button>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    
+  </div>
+
+</body>
+</html>

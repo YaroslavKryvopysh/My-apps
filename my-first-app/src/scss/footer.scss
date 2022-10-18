@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'mixins';
+
+.market__footer{
+  position: fixed;
+  width: 70%;
+  bottom: 0;
+  background: #8f8e8e;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,44 @@
+@import 'variables';
+@import 'mixins';
+
+.market__shop{
+  background: #fff;
+  padding: 80px 10%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item{
+  border: 1px solid #000;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0;
+  margin: 5px;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.item__img{
+  width: 180px;
+  height: 180px;
+  background: rgb(109, 108, 108);
+}
+
+.item__box{
+  display: flex;
+  padding: 10px 0;
+  max-width: 180px;
+  justify-content: space-between;
+  color: rgb(80, 51, 243);
+  font-weight: 700;
+}
+
+.item__title{
+  padding-right: 5px;
+}
