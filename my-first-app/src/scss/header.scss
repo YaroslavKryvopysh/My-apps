@@ -1,0 +1,38 @@
+@import 'variables';
+@import 'mixins';
+
+.market__header{
+  position: fixed;
+  height: 60px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8f8e8e;
+}
+
+.header__ico{
+  background: #f3f3;
+  width: 40px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.header__menu{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu__link{
+  padding: 5px;
+  font-size: 20px;
+
+  &:hover{
+    cursor: pointer;
+    text-shadow: -2px 1px rgb(237, 241, 241);
+  }
+}
